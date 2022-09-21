@@ -17,7 +17,6 @@ body {
 /* ----------VARIABLES------------------------- */
 :root {
   --white-base-color: #fff;
-  --secondary-background-color: #f5f5f5;
   --third-background-color: #f5f4fa;
   --black-background-color: #2F303A;
   --black-text-color: #212121;
@@ -58,11 +57,9 @@ body {
 
 .logo {
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  display: inline-block;
   letter-spacing: 0.03em;
 }
 
@@ -108,7 +105,7 @@ body {
 } */
 
 .header-contacts__link {
-  color: inherit;
+  color: var(--grey-text-color);
   letter-spacing: 0.02em;
   font-weight: 500;
   line-height: calc(16 / 14);
@@ -154,15 +151,13 @@ body {
   font-size: 16px;
   font-family: inherit;
   line-height: calc(30 / 16);
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
 /* ------------ADVANTAGES--------------------------------------- */
-.advantages {
-  /* padding: 94px 0; */
-  background: var(--secondary-background-color);
-}
+/* .advantages {
+  padding: 94px 0;
+} */
 
 .advantages__title--hidden {
   display: none;
@@ -178,6 +173,7 @@ body {
 } */
 
 .advantages__subtitle {
+  font-size: 14px;
   margin-bottom: 10px;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -193,10 +189,9 @@ body {
 
 /* -----------What-We-Do------------------------- */
 
-.whatwedo {
-  /* padding: 0 0 94px 0; */
-  background: var(--secondary-background-color);
-}
+/* .whatwedo {
+  padding: 0 0 94px 0;
+} */
 
 /* .whatwedo__gallery {
   display: flex;
@@ -272,7 +267,6 @@ body {
 
 .footer__address {
   font-style: normal;
-  font-weight: 500;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
@@ -297,10 +291,9 @@ body {
 /* ------------/--------------------------------------- */
 
 /* ------PAGE-PORTFOLIO---------------------------- */
-.ourworks {
-  /* padding: 94px 0; */
-  background: var(--secondary-background-color);
-}
+/* .ourworks {
+  padding: 94px 0;
+} */
 
 .ourworks__title--hidden {
   display: none;
